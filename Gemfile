@@ -18,7 +18,7 @@ end
 gem 'jquery-rails'
 
 group :production do
-  gem 'pg'
+ gem 'mysql2', '~> 0.3'
 end
 
 group :development do
